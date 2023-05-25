@@ -655,9 +655,29 @@ width: 100%;
   color: #f10066;
   font-weight: 800;
   font-size: large;
+  
 }
-
-
+.blog-post{
+  position: relative;
+}
+.cart{
+  text-align: center;
+  position: absolute; 
+  left: 100px;
+  opacity: 0;
+  transition: 1s;
+  
+}
+.cart a{
+  margin-top: -300%;
+}
+.blog-post:hover .cart{
+  margin-top: -50%;
+  opacity: 1;
+}
+.blog-post img:hover{
+  opacity: 0.8;
+}
 .text-content{
   position: absolute;
   bottom: -10px;

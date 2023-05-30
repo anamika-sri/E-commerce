@@ -9,6 +9,10 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+*{
+  list-style: none;
+  text-decoration: none;
+}
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -18,14 +22,12 @@ body {
   margin-left: 20%;
 }
 a {
-  color: #f10066;
   text-decoration: none;
+  color: black;
+  
 }
 
-a:hover {
-  color: #f10066;
-  text-decoration: none;
-}
+
 
 h1,
 h2,
@@ -368,7 +370,9 @@ h6 {
 --------------------------------------------------------------*/
 
 
-
+.hero{
+  margin-top: 100px;
+}
 
 
 
@@ -634,13 +638,13 @@ section {
 # Tabs
 --------------------------------------------------------------*/
 
-.{
+/* .{
   margin-top: 10px;
   padding: 0 px;
   display: flex;
   max-width: 1300px;
 width: 100%;
-}
+} */
 .blog-post{
   position: relative;
 }
@@ -793,6 +797,62 @@ font-size: 16px;
   color: #f10066;
   text-align: center;
 }
+/*--------------------------------------------------------------
+# add to card
+--------------------------------------------------------------*/
+.card-texts{
+  color: black;
+  text-align: center;
+  margin-top: 5px;
+}
+.black{
+  height: 30px; width: 30px; background-color: #282a36; margin-right: 5px; display: inline-block; border-style: solid; border-color: black;
+}
+.gray{
+  height: 30px; width: 30px; background-color: #44475a; margin-right: 5px; display: inline-block; border-style: solid; border-color: black;
+}
+.white{
+  height: 30px; width: 30px; background-color: #f8f8f2; margin-right: 5px; display: inline-block; border-style: solid; border-color: black;
+}
+.blue{
+  height: 30px; width: 30px; background-color: #6272a4; margin-right: 5px; display: inline-block; border-style: solid; border-color: black;
+}
+.sky .blue{
+  height: 30px; width: 30px; background-color: #8be9fd; margin-right: 5px; display: inline-block; border-style: solid; border-color: black;
+
+}
+.green{
+  height: 30px; width: 30px; background-color: #50fa7b; margin-right: 5px; display: inline-block; border-style: solid; border-color: black;
+
+}
+.Orange{
+  height: 30px; width: 30px; background-color: #ffb86c; margin-right: 5px; display: inline-block; border-style: solid; border-color: black;
+
+}
+.Pink{
+  height: 30px; width: 30px; background-color: #ff79c6; margin-right: 5px; display: inline-block; border-style: solid; border-color: black;
+
+}
+.voilet{
+  height: 30px; width: 30px; background-color: #bd93f9; margin-right: 5px; display: inline-block; border-style: solid; border-color: black;
+
+}
+.red{
+  height: 30px; width: 30px; background-color: #ff5555; margin-right: 5px; display: inline-block; border-style: solid; border-color: black;
+
+}
+.yellow{
+  height: 30px; width: 30px; background-color: #f1fa8c; margin-right: 5px; display: inline-block; border-style: solid; border-color: black;
+
+}
+/*--------------------------------------------------------------
+# cards
+--------------------------------------------------------------*/
+.pink img{
+  margin: 10px;
+  box-shadow: 20px white;
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
